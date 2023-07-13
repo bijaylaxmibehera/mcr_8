@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: aliceblue;
+   
+}
+
+.logo{
+    color: red;
+    font-weight: 800;
+    font-size: 1.7rem;
+    font-family: 'Cedarville Cursive', cursive;
+}
+.search-bar{
+    position: relative;
+   
+}
+
+.search-logo{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.search-bar input{
+    padding: 7px 20px;
+}
+i.fa.fa-search{
+    color: rgb(210, 209, 209);
+    font-weight: 400;
+}
